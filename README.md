@@ -84,7 +84,7 @@ We intend to add increased security measures on user profiles and information, a
 
 ***Florentina Simlinger***: Conducted research on UX design, designed the StreamBuddy logo, created frontend components including the RangeSlider, Ratings and Review Input, Reviews, Profile Navbar, and User. Substantially contributed to fix all frontend bugs and to make the user interface look great and responsive.
 
-***Nazish Tazeem**: Created a responsive navigation bar, a reusable autocomplete plus checkbox component for advanced search of films, user context hook, and about page. Developed all social network components (network, network bar, user cards, and user card). Implemented delete review, frontend user Axios, and the entire user backend. Contributed to fixing bugs, branding, and making the user interface visually appealing.
+***Nazish Tazeem**: Created a responsive navigation bar, a reusable autocomplete plus checkbox component for advanced search of films, user context hook, and about page. Developed all social network components (network, network bar, user cards, and user card). Implemented delete review, frontend user Axios, and the entire user backend. Contributed to fixing bugs, branding, and making the user interface responsive and visually appealing.
 
 
 ## Prototypes
