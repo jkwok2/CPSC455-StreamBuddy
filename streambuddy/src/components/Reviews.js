@@ -6,7 +6,6 @@ function Reviews(props) {
     const { user } = useContext(UserContext);
 
     let userReviews = user.reviews;
-    console.log("userReviews are ", user.reviews);
 
     let nonNullReviews = userReviews.reduce(function (result, review) {
         if (review) {
@@ -15,7 +14,6 @@ function Reviews(props) {
         return result;
     }, []);
 
-    console.log("usable reviews are ", nonNullReviews)
 
     return (
         <section id="Reviews">

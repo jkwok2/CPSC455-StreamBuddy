@@ -7,8 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node app.js",
     "dev": "nodemon app.js",
+    "client": "concurrently \"cd streambuddy && npm install -g npm@latest\" \"npm run build --prefix streambuddy\"",
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "client": "concurrently \"cd streambuddy && npm install\" \"npm run build --prefix streambuddy\""
+    "heroku-postbuild": "npm install --no optional --prefix client && npm run build --prefix client"
+
   },
   "author": "",
   "license": "ISC",
