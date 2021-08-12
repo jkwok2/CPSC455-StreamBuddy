@@ -28,7 +28,7 @@ StreamBuddy allows users to search, browse, discover, track, review, and share f
 ***HTML/CSS/JS***
 **HTML**: We do not use the index.html file other than it being the ‘entry point’ (ie. the root of our DOM tree) for the code and the place where everything gets rendered onto by index.js.
 **CSS**: We used Material-UI for components and found it ideal to use a Material-UI theme provider, theme, and use styles to manage branding colors, styling, fonts, and ensure the website looks consistent throughout.
-JavaScript: is a scripting language that makes it easy to dynamically update content and allow for interaction. It is a popular language that allows for an efficient user experience through client-side execution, smooth interaction with the server through asynchronous calls. Since it can also be used on the server-side using Node.js (a JS runtime that allows us to use JS outside of a web browser) it was a natural choice to use it. 
+**JavaScript**: is a scripting language that makes it easy to dynamically update content and allow for interaction. It is a popular language that allows for an efficient user experience through client-side execution, smooth interaction with the server through asynchronous calls. Since it can also be used on the server-side using Node.js (a JS runtime that allows us to use JS outside of a web browser) it was a natural choice to use it. 
 
 ***React***
 React is a declarative and efficient JavaScript library that allows for the development of user interfaces. Using components makes it incredibly easy to reuse code and structure pages intuitively.
@@ -67,9 +67,9 @@ The film advanced search algorithm had a complex implementation. This was accomp
 To generate our media, we utilized Javascript to scrape a website that contained a list of all Netflix movies. We used the Open Movie Database, OMDB API, to gather information about each film. This information includes country, genre, release date, cast, and ratings. We cleaned all this data to put into our MongoDB database. 
 
 ## Description of Next Steps. What would you do next to further improve the app, or add additional relevant functionality? 
--Hashing of authentication 
--Automatic updates of database
--Adding content from other streaming sites
+-Hashing of authentication.
+-Automatic updates of database.
+-Adding content from other streaming sites.
 
 We intend to add increased security measures on user profiles and information, as sensitive data is being handled. This includes hashing of authentication as well as other protective measures. Further, we intend to update the database automatically to keep media current and add content from other streaming sites like Crave, Hulu, and Amazon Prime. This would be accomplished by utilizing unofficial APIs that list the media on other streaming services.
 
